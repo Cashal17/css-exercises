@@ -28,12 +28,13 @@ ul {
   flex-direction: column;
   padding-left: 0;
   margin: 0;
-  gap: 8px;
+  gap: 16px;
 }
 
 a {
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
 .footer {
@@ -57,10 +58,13 @@ a {
   padding: 32px;
   display: flex;
   flex-wrap: wrap;
+  gap: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  padding: 8px;
 }
